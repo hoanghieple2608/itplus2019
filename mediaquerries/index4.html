@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style type="text/css">
+        body{
+            background: green;
+        }
+
+        /* từ 1000px đến 1200px */
+        @media screen and (max-width: 1200px) {
+            body {
+                background: red;
+            }
+        }
+
+        /* từ 680px đến 1000px */
+        @media screen and (max-width: 1000px) {
+            body {
+                background: yellow;
+            }
+        }
+
+        /* từ 0 đến 680px*/
+        @media screen and (max-width: 680px) {
+            body {
+                background: violet;
+            }
+        }
+    </style>
+</head>
+<body>
+    Sử dụng max-width
+</body>
+</html>
