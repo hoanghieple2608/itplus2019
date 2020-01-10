@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style type="text/css">
+        tr {
+            text-align: center;
+        }
+        div{
+            border: 1px solid transparent;
+            background-position: center;
+        }
+    </style>
+</head>
+<body>
+
+<div>
+    <form name="dienthoai" action="" method="post">
+
+        <p>
+            <label>Mã điện thoại</label>
+            <input type="text" name="mđt" value="" placeholder=""><br/><br/>
+        </p>
+        <p>
+            <label>Tên điện thoại</label>
+            <input type="text" name="tđt" value="" placeholder=""><br/><br/>
+        </p>
+        <p class="p3">
+            <label class="ab">Tính năng</label>
+            <textarea name="tinhnang" rows="3" cols="30"></textarea>
+        </p>
+        <p>
+            <label>Giá</label>
+            <input type="text" name="price" value="" placeholder=""><br/><br/>
+        </p>
+        <p>
+            <label>Hãng</label>
+
+            <select name="Hãng">
+                <option value="1">Nokia</option>
+                <option value="2">Sony Ericsson</option>
+                <option value="3">SamSung</option>
+            </select>
+        </p>
+        <p>
+            <button>Thêm mới</button>
+            <button>Sửa</button>
+        </p>
+        <table width="70%" border="1px" >
+
+            <tr>
+                <td>STT</td>
+                <td>Mã điện thoại</td>
+                <td>Tên điện thoại</td>
+                <td>Giá</td>
+                <td>Hãng</td>
+                <td>Sửa</td>
+            </tr>
+
+            <tr>
+                <td>1</td>
+                <td>NOK0001</td>
+                <td>Nokia 1110i</td>
+                <td>590000</td>
+                <td>Nokia</td>
+                <td><a href="#">edit</a> </td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td>SAM0003</td>
+                <td>SamSung F500</td>
+                <td>8890000</td>
+                <td>SamSung</td>
+                <td><a href="#">edit</a> </td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>SNY0006</td>
+                <td>Sony Ericsson K800i</td>
+                <td>4799000</td>
+                <td>Sony Ericsson</td>
+                <td><a href="#">edit</a> </td>
+            </tr>
+
+
+        </table>
+
+    </form>
+</div>
+</body>
+</html>
